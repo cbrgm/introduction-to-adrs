@@ -137,7 +137,51 @@ ADRs have states (accepted, proposed, ...) and therefore follow a lifecycle.
 
 ---
 
-## Example
+## ADR: Use a template
+
+```
+Title: A title for a decision to be made
+
+Date: 2022-11-05, Author: Christian Bargmann ([@cbrgm <chris@cbrgm.net>](mailto:chris@cbrgm.net))
+
+## Status
+
+- [x] - Proposed
+
+## Context
+
+What is the issue that we're seeing that is motivating this decision or change?
+
+## Decision
+
+What is the change that we're proposing and/or doing?
+
+## Consequences
+
+What becomes easier or more difficult to do because of this change?
+
+```
+
+---
+
+## ADR: How to structure them?
+
+Example:
+
+```
+.
+├── README.md
+├── docs
+│   └── decisions
+│       └── 001-example-adr.md
+├── slides.html
+├── slides.md
+└── ...
+```
+
+---
+
+## ADR: Examples
 
 [Let's look at some ADR examples :)](https://github.com/adr/madr/tree/main/docs/decisions)
 
@@ -169,38 +213,11 @@ A collection of multiple ADRs creates a `Decision Log`.
 
 ---
 
-## Tips: Use a template
-
-```
-Title: Foobar
-
-Date: 2022-11-05, Author: Christian Bargmann ([@cbrgm <chris@cbrgm.net>](mailto:chris@cbrgm.net))
-
-## Status
-
-- [x] - Proposed
-
-## Context
-
-What is the issue that we're seeing that is motivating this decision or change?
-
-## Decision
-
-What is the change that we're proposing and/or doing?
-
-## Consequences
-
-What becomes easier or more difficult to do because of this change?
-
-```
-
----
-
 ## Benefits of ADRs
 
 * Easy to edit, easy to find
 * Plain text works great, doesnt need pictures
-* consume and change by colleagues
+* Easy to consume and change by your colleagues
 * Low entry-barrier for your team members
 * Easy to ramp up over time
 
@@ -319,13 +336,13 @@ and higher-order components, From a maintenance perspective, this is especially 
 
 ---
 
-## Today we talked about
+## Let's wrap it up!
 
-Today we talked about
+Today we talked about...
 
-* what Architecture Decision Records are
-* how ADRs deliver value to your team
-* how to create ADRs
+* ...what Architecture Decision Records are
+* ...how ADRs deliver value to your team
+* ...how to create ADRs
 
 ---
 
@@ -336,7 +353,7 @@ Today we talked about
 	* Spread knowledge
 * Do Peer Reviews on ADRs or pair while writing them
 * Do you have a dedicated Architect? Let him point out when to write an ADR
-* Track ADRs in the backlog / create a story for it
+* Track ADRs in the backlog / create a story for them
 * Not everything is an ADR, continue drawing pictures and diagrams and capture other views on your system
 
 ---
