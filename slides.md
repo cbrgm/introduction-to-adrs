@@ -52,7 +52,7 @@ But oral history has limits:
 
 * Short reach (we can't talk to everyone at once)
 * Changes organically ("Stille Post")
-* Time conusming to share
+* Time consuming to share
 * Dies without constant attention
 
 ---
